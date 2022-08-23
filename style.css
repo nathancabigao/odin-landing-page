@@ -90,6 +90,7 @@ button.hero-button {
 
 .information {
     flex-direction: column;
+    padding: 2em 0 4em 0;
 }
 
 .information h2 {
@@ -101,8 +102,8 @@ button.hero-button {
 
 .information-grid {
     display: flex;
-    justify-content: space-around;
-    gap: 8px;
+    justify-content: center;
+    gap: 36px;
     flex-wrap: wrap;
 }
 
@@ -112,7 +113,7 @@ button.hero-button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: rgb(88, 88, 88);
+    color: #585858;
     flex-wrap: wrap;
     flex-basis: 200px;
 }
@@ -123,4 +124,29 @@ button.hero-button {
     height: 200px;
     border: 5px solid #3882f6;
     border-radius: 8px;
+}
+
+.quote {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    flex-basis: 300px;
+    padding: 8em 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 23rem;
+}
+
+.quote-attribution {
+    text-align: right;
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 2rem 24rem 0 24rem;
 }
