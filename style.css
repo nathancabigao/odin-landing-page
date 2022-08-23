@@ -23,6 +23,7 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding: 1em inherit;
 }
 
 .header-logo {
@@ -40,7 +41,7 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 ul li a {
