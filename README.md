@@ -1,4 +1,7 @@
 # odin-landing-page
+This project is part of the Odin Project: https://www.theodinproject.com/lessons/foundations-landing-page
+
+This project is practice making a website landing page, with focus on utilizing flexbox. I decided to make a landing page with content about Tokyo.
 ## Image Credits
 ### Hero Banner: 
 - [Photo by Nick Kwan](https://www.pexels.com/photo/illuminated-tower-2614818/)
