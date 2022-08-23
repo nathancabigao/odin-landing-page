@@ -16,19 +16,22 @@ body {
 
 .header, .hero, .information, .call-to-action, .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 12em;
+    padding: 0;
+    gap: 1em;
 }
 
 .header {
     background-color: #1f2937;
     padding: 1em inherit;
+    gap: 6em
 }
 
 .header-logo {
     font-weight: 700;
     font-size: 24px;
+    max-width: 400px;
 }
 
 .header-logo a {
@@ -42,6 +45,7 @@ body {
     padding: 0;
     display: flex;
     gap: 24px;
+    max-width: 400px;
 }
 
 ul li a {
@@ -51,7 +55,9 @@ ul li a {
 }
 
 .hero {
-    padding: 0 12em 1.5em 12em;
+    justify-content: center;
+    padding: 1.5em 1em;
+    gap: 1em;
     background-color: #1f2937;
     flex: 1;
     color: #e5e7eb;
@@ -82,14 +88,15 @@ button.hero-button {
 .hero-left {
     display: flex;
     flex-direction: column;
-    flex: 60%;
+    flex: 1;
     margin-right: 10px;
-    flex-basis: 200px;
+    max-width: 650px;
 }
 
 .hero-right {
-    flex: 40%;
-    flex-basis: 200px;
+    display: flex;
+    flex: 1;
+    max-width: 650px;
 }
 
 .hero-right img {
@@ -100,6 +107,7 @@ button.hero-button {
 .information {
     flex-direction: column;
     padding: 2em 0 4em 0;
+    gap: 1em;
 }
 
 .information h2 {
