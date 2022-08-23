@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+* {
+    font-family: 'Roboto', Tahoma, Arial, sans-serif;
+}
+
 body {
     font-family: 'Roboto', Tahoma, Arial, sans-serif;
+    font-size: 16px;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -9,7 +14,7 @@ body {
     justify-content: space-between;
 }
 
-.header, .hero, .information, .footer {
+.header, .hero, .information, .call-to-action, .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,8 +64,11 @@ ul li a {
 }
 
 button {
+    font-size: 14px;
     padding: 8px 24px;
     border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 button.hero-button {
@@ -149,4 +157,51 @@ button.hero-button {
     font-weight: 900;
     font-size: 18px;
     margin: 2rem 24rem 0 24rem;
+}
+
+.call-to-action {
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-window {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 4em 0;
+    padding: 2em 6em;
+    border-radius: 8px;
+}
+
+.call-to-action-left, .call-to-action-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-left {
+    margin-right: 10em;
+}
+
+.call-to-action h2, .call-to-action p {
+    margin: 0;
+}
+
+.call-to-action button {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
 }
