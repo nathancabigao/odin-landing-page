@@ -136,28 +136,29 @@ button.hero-button {
 }
 
 .quote {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 8em 2em;
     background-color: #e5e7eb;
     color: #1f2937;
-    flex-basis: 300px;
-    padding: 8em 0;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    margin: 0 23rem;
+    max-width: 800px;
 }
 
 .quote-attribution {
-    text-align: right;
-    align-self: flex-end;
+    font-style: normal;
     font-weight: 900;
     font-size: 18px;
-    margin: 2rem 24rem 0 24rem;
+    text-align: right;
+    max-width: 800px;
+    padding: 1em 0 0 0;
 }
 
 .call-to-action {
