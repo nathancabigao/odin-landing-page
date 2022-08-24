@@ -24,7 +24,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 1em inherit;
+    padding: 0.25em 0 0 0;
     gap: 6em
 }
 
@@ -37,7 +37,7 @@ body {
 .header-logo a {
     text-decoration: none;
     color:#f9faf8;
-    padding: 16px 16px 16px 0;
+    padding: 16px 16px 8px 0;
 }
 
 .header ul {
@@ -56,7 +56,7 @@ ul li a {
 
 .hero {
     justify-content: center;
-    padding: 1.5em 1em;
+    padding: 0 1em 2em 1em;
     gap: 1em;
     background-color: #1f2937;
     flex: 1;
@@ -175,13 +175,14 @@ button.hero-button {
 }
 
 .call-to-action-window {
+    width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
     color: #f9faf8;
     margin: 4em 0;
-    padding: 2em 6em;
+    padding: 2em 0em;
     border-radius: 8px;
 }
 
@@ -191,7 +192,13 @@ button.hero-button {
 }
 
 .call-to-action-left {
-    margin-right: 10em;
+    margin-left: 4px;
+    margin-right: 1em;
+}
+
+.call-to-action-right {
+    justify-self: flex-end;
+    margin-right: 4px;
 }
 
 .call-to-action h2, .call-to-action p {
