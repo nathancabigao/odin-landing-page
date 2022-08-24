@@ -24,8 +24,8 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 0.25em 0 0 0;
-    gap: 6em
+    padding: 0.25em 1em 0 1em;
+    gap: 3.75em;
 }
 
 .header-logo {
@@ -115,6 +115,7 @@ button.hero-button {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding: 0 1em;
 }
 
 .information-grid {
